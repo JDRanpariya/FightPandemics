@@ -22,7 +22,7 @@ import facebook from "~/assets/icons/social-facebook.svg";
 import gmail from "~/assets/icons/social-google.svg";
 import linkedin from "~/assets/icons/social-linkedin.svg";
 
-import { theme } from "../constants/theme";
+import { theme } from "constants/theme";
 const { colors } = theme;
 const { typography } = theme;
 
