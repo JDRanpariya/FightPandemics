@@ -12,8 +12,8 @@ import {
 import SubmitButton from "~/components/Button/SubmitButton";
 import Label from "~/components/Input/Label";
 import Input from "~/components/Input/BaseInput";
-import { validateEmail } from "../utils/common.js";
-import { useQuery } from "../utils/hooks.js";
+import { validateEmail } from "utils/common.js";
+import { useQuery } from "utils/hooks.js";
 
 // ICONS
 import SvgIcon from "components/Icon/SvgIcon";
