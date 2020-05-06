@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 // ICONS
 import SvgIcon from "../Icon/SvgIcon";
-import nextArrow from "~/assets/icons/next-arrow.svg";
-import backArrow from "~/assets/icons/back-arrow.svg";
+import nextArrow from "assets/icons/next-arrow.svg";
+import backArrow from "assets/icons/back-arrow.svg";
 
 const StyledWizardNav = styled.div`
   display: flex;
