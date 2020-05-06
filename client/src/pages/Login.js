@@ -16,7 +16,7 @@ import { validateEmail } from "../utils/common.js";
 import { useQuery } from "../utils/hooks.js";
 
 // ICONS
-import SvgIcon from "../components/Icon/SvgIcon";
+import SvgIcon from "components/Icon/SvgIcon";
 import twitter from "~/assets/icons/social-twitter.svg";
 import facebook from "~/assets/icons/social-facebook.svg";
 import gmail from "~/assets/icons/social-google.svg";
@@ -194,20 +194,19 @@ const Login = ({ isLoginForm }) => {
           />
         </InputWrapper>
         {!isLoginForm && (
-        <InputWrapper>
-
-        <Label style={StyleLabel} label="Confirm password" />
-          <Input
-          type="password"
-          required
-          placeholder="Confirm password"
-          value={confirmPassword}
-          onChange={handleInputChangeConfirmPassword}
-          style={StyleInput}
-          />
+          <InputWrapper>
+            <Label style={StyleLabel} label="Confirm password" />
+            <Input
+              type="password"
+              required
+              placeholder="Confirm password"
+              value={confirmPassword}
+              onChange={handleInputChangeConfirmPassword}
+              style={StyleInput}
+            />
           </InputWrapper>
         )}
-        
+
         <SubmitButton
           primary="true"
           onClick={isLoginForm ? handleLoginWithEmail : handleSignup}
